@@ -1,0 +1,9 @@
+-- to use this script
+local obfuscator = loadstring(game:HttpGet("https://raw.githubusercontent.com/NoWMoN/example-obfuscate/main/source.lua"))()
+
+obfuscator(
+ [===[
+  -- paste your script here
+  print("NoWMoN") 
+ ]===]
+)
